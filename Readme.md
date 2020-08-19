@@ -1,6 +1,6 @@
 # Draw a Graph #
 
-Требования: Python3, PyQt 5.8
+Требования: Python3, PyQt 5.15
 ~~~~~~~~
 Запуск приложения: python3 main.py
 ~~~~~~~~

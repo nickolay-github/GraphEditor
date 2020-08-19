@@ -5,10 +5,10 @@ import main
 from PyQt5.QtWidgets import QWidget, QApplication, QMainWindow, QAction, qApp, QSizePolicy, QSlider
 from PyQt5.QtCore import Qt, QPoint
 from PyQt5.QtGui import QPainter
-from PyQt5.QtGui import QIcon, QImage,QFont, QPen
+from PyQt5.QtGui import QIcon, QImage, QFont, QPen
 
 
-from .NodeEdge import Node, Edge
+from .entities import Node, Edge
 
 
 class Canvas(QWidget):

@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QWidget, QApplication, QMainWindow, QAction, qApp, Q
 from PyQt5.QtCore import Qt, QPoint
 from PyQt5.QtGui import QPainter
 from PyQt5.QtGui import QIcon, QImage
-from source import graph_logic
+from source import processing
 
 
 
@@ -37,7 +37,7 @@ class MainWindow(QMainWindow):
         self.setGeometry(300, 300, 500, 500)
         self.setWindowTitle('Draw a graph')
         
-        self.canvas = graph_logic.Canvas()
+        self.canvas = processing.Canvas()
         self.setCentralWidget(self.canvas)
         
         exitAction = QAction(QIcon('images/exit.png'), 'Exit', self)
